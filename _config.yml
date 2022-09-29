@@ -1,6 +1,7 @@
 theme: jekyll-theme-minimal
 title: lipu lipamanka
 description: this is where lipamanka keeps all of their philosophy things maybe
+image: https://cdn.discordapp.com/attachments/938446775545651200/1014367624991359006/unknown.png
 
 defaults:
   - scope:
