@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Meaningful Page Title</title>
+  <style>
+    body {background-color: lightblue;}
+    h1 {color: purple;}
+    p {color: black;}
+  </style>
+</head>
+<body>
+
+<p>The content of the document......</p>
+
+</body>
+</html>
