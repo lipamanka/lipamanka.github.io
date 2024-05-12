@@ -3,8 +3,8 @@
 <head>
   <title>A Meaningful Page Title</title>
   <style>
-    body {background-color: lightblue;}
-    h1 {color: purple;}
+    body {background-color: rgb(143, 200, 219);}
+    h1 {color: rgb(80, 26, 5);}
     p {color: black;}
   </style>
 </head>
