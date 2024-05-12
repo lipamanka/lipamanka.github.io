@@ -3,6 +3,7 @@ header{
     padding: 20px;
 }
 aside{
+    align: right;
     width: 20%;
     float: right;
 }
