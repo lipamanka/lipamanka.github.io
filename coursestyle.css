@@ -208,16 +208,16 @@ body {
     color: #eeeeec;
     border-inline-start-color: #ef2929;
 }
+.etymology {
+    background: #68f274;
+    color: #000000;
+    border-inline-start-color: #39c87c;
+}
 table {
     background: #2e3436;
     border-color: #888a85;
 }
 th,td {
     border-color: #555753;
-}
-.etymology {
-    background: #68f274;
-    color: #000000;
-    border-inline-start-color: #39c87c;
 }
 }
