@@ -83,14 +83,14 @@ color: #204a87;
 .content a:focus, .content a:hover {
 color: #000000;
 }
-.info, .warning, .error, .etymology {
+.info, .warning, .error, .etymology, .grammar {
 margin: 6pt;
 padding-inline-start: 0.5em;
 font-family: sans-serif;
 overflow: auto;
 border-radius: 6px;
 }
-.info:before, .warning:before, .error:before, .etymology:before {
+.info:before, .warning:before, .error:before, .etymology:before, .grammar:before {
 font-family: "Xolonium", sans-serif;
 float:inline-end;
 font-size: 3em;
@@ -126,6 +126,11 @@ color: #eeeeec;
 .etymology {
 border: 2px solid #005710;
 background: #9aff9b;
+color: #eeeeec;
+}
+.grammar {
+border: 2px solid #574300;
+background: #ede399;
 color: #eeeeec;
 }
 .spoiler {
@@ -169,7 +174,7 @@ body {
  padding-inline: 1em;
  padding-block: 1em;
 }
-.info, .warning, .error, .etymology {
+.info, .warning, .error, .etymology, .grammar {
  padding: 6pt;
  padding-inline-start: 1em;
 }
