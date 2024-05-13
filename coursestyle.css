@@ -84,7 +84,7 @@ color: #204a87;
 color: #000000;
 }
 .info, .warning, .error, .etymology {
-margin: 16pt;
+margin: 6pt;
 padding-inline-start: 0.5em;
 font-family: sans-serif;
 overflow: auto;
