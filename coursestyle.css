@@ -124,8 +124,8 @@ background: #ef2929;
 color: #eeeeec;
 }
 .etymology {
-border: 2px solid #a40000;
-background: #ef2929;
+border: 2px solid #005710;
+background: #9aff9b;
 color: #eeeeec;
 }
 .spoiler {
@@ -219,7 +219,6 @@ body {
 .etymology {
     background: #b7fcbd;
     color: #000000;
-    border-inline-start-color: #39c87c;
 }
 table {
     background: #2e3436;
