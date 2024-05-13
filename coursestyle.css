@@ -169,7 +169,7 @@ body {
  padding-inline: 1em;
  padding-block: 1em;
 }
-.info, .warning, .error .etymology {
+.info, .warning, .error, .etymology {
  padding: 6pt;
  padding-inline-start: 1em;
 }
