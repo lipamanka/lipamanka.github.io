@@ -83,7 +83,7 @@ color: #204a87;
 .content a:focus, .content a:hover {
 color: #000000;
 }
-.info, .warning, .error {
+.info, .warning, .error .etymology {
 margin: 6pt;
 padding-inline-start: 0.5em;
 font-family: sans-serif;
@@ -161,7 +161,7 @@ body {
  padding-inline: 1em;
  padding-block: 1em;
 }
-.info, .warning, .error {
+.info, .warning, .error .etymology {
  padding: 6pt;
  padding-inline-start: 1em;
 }
@@ -216,8 +216,8 @@ th,td {
     border-color: #555753;
 }
 .etymology {
-    border-radius: 6px;
-    border-style: solid;
-    border-color:#000000;
+    background: #68f274;
+    color: #000000;
+    border-inline-start-color: #39c87c;
 }
 }
