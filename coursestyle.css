@@ -216,6 +216,7 @@ th,td {
     border-color: #555753;
 }
 .etymology {
+    border-radius: 6px;
     border-style: solid;
     border-color:#000000;
 }
