@@ -1,15 +1,3 @@
-@font-face {
-    font-family: "linja pimeja";
-    src: url("/tokipona/linjapimeja19.woff")
-}
-@font-face {
-    font-family: "insa pi supa lape";
-    src: url("/tokipona/supalape.woff")
-}
-@font-face {
-font-family: "sitelen pona pona";
-src: url("/tokipona/sitelen-pona-pona.otf");
-}
 html {
 min-height: 100%;
 overflow-y: scroll;
@@ -17,7 +5,7 @@ scrollbar-color: C_LGREEN #000000;
 scrollbar-width: auto;
 }
 body {
-background: #eeeeec;
+background: #c2ffc8;
 color:#000000;
 min-height: 100%;
 margin: 0;
