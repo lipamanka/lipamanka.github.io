@@ -105,9 +105,6 @@ content: "⚠";
 .error:before {
 content: "⛔";
 }
-.etymology:before {
-content: "🌏";
-}
 .info {
 border: 2px solid #4e9a06;
 background: #bff588;
