@@ -217,5 +217,6 @@ th,td {
 }
 .etymology {
     border: solid;
+    border-style: solid;
 }
 }
