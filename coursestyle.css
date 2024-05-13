@@ -83,14 +83,14 @@ color: #204a87;
 .content a:focus, .content a:hover {
 color: #000000;
 }
-.info, .warning, .error .etymology {
+.info, .warning, .error, .etymology {
 margin: 6pt;
 padding-inline-start: 0.5em;
 font-family: sans-serif;
 overflow: auto;
 border-radius: 6px;
 }
-.info:before, .warning:before, .error:before {
+.info:before, .warning:before, .error:before, .etymology:before {
 font-family: "Xolonium", sans-serif;
 float:inline-end;
 font-size: 3em;
@@ -104,6 +104,9 @@ content: "⚠";
 }
 .error:before {
 content: "⛔";
+}
+.etymology:before {
+content: "E"
 }
 .info {
 border: 2px solid #4e9a06;
