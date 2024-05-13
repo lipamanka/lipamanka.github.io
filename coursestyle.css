@@ -5,7 +5,7 @@ scrollbar-color: C_LGREEN #000000;
 scrollbar-width: auto;
 }
 body {
-background: #c2ffc8;
+background: #aeb3ff;
 color:#000000;
 min-height: 100%;
 margin: 0;
@@ -31,8 +31,8 @@ th, td {
    padding: 4pt;
 }
 .header {
-background: #fce94f;
-color: #8f5902;
+background: #454bff;
+color: #cd8613;
 font-family: sans-serif;
 min-height: 1px;
 }
