@@ -4,28 +4,28 @@ html {
     scrollbar-color: C_LGREEN #000000;
     scrollbar-width: auto;
     }
-    body {
+body {
     background: #aeb3ff;
     color:#000000;
     min-height: 100%;
     margin: 10pt;
-    }
-    pre {
+}
+pre {
     font-size: 12pt;
-    }
-    blockquote {
+}
+blockquote {
     margin: 6pt;
     padding-inline: 1em;
     border-inline-start: 4px solid #03005d;
-    }
-    p {
+}
+p {
     line-height: 1.5em;
-    }
-    table {
+}
+table {
     background: #eeeeec;
     border: 2px solid #888a85;
     border-collapse: collapse;
-    }
+}
     th, td {
        border: 1px solid #babdb6;
        padding: 4pt;
