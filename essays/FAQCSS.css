@@ -3,15 +3,18 @@ html {
     overflow-y: scroll;
     scrollbar-color: C_LGREEN #000000;
     scrollbar-width: auto;
+    font-family: Arial, Helvetica, sans-serif;
     }
 body {
     background: #eaf2ff;
     color:#000000;
     min-height: 100%;
     margin: 10pt;
+    font-family: Arial, Helvetica, sans-serif;
 }
 p {
     line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 details {
