@@ -10,14 +10,6 @@ body {
     min-height: 100%;
     margin: 10pt;
 }
-pre {
-    font-size: 12pt;
-}
-blockquote {
-    margin: 6pt;
-    padding-inline: 1em;
-    border-inline-start: 4px solid #03005d;
-}
 p {
     line-height: 1.5em;
 }
