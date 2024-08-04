@@ -6,7 +6,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     }
 body {
-    background: #eaf2ff;
+    background: #fff4fd;
     color:#000000;
     min-height: 100%;
     margin: 10pt;
@@ -22,7 +22,7 @@ details {
     border: 1px solid #aaa;
     border-radius: 4px;
     padding: 0.5em 0.5em 0;
-    background: #fff4fd;
+    background: #eaf2ff;
     details {
         font-family: Arial, Helvetica, sans-serif;
         border: 1px solid #aaa;
