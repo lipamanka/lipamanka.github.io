@@ -3,6 +3,7 @@ html {
     overflow-y: scroll;
     scrollbar-color: C_LGREEN #000000;
     scrollbar-width: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body {
     padding: 6px;
