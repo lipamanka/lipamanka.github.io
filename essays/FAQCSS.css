@@ -3,16 +3,256 @@ html {
     overflow-y: scroll;
     scrollbar-color: C_LGREEN #000000;
     scrollbar-width: auto;
-    font-family: Arial, Helvetica, sans-serif;
-}
-body {
-    padding: 6px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-p {
-    font-size: 16pt;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    }
+    body {
+    background: #aeb3ff;
+    color:#000000;
+    min-height: 100%;
+    margin: 10pt;
+    }
+    pre {
+    font-size: 12pt;
+    }
+    blockquote {
+    margin: 6pt;
+    padding-inline: 1em;
+    border-inline-start: 4px solid #03005d;
+    }
+    p {
+    line-height: 1.5em;
+    }
+    table {
+    background: #eeeeec;
+    border: 2px solid #888a85;
+    border-collapse: collapse;
+    }
+    th, td {
+       border: 1px solid #babdb6;
+       padding: 4pt;
+    }
+    .header {
+    background: #0d1068;
+    color: #d3aa68;
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 1px;
+    }
+    .header_text {
+    padding-block: 4em;
+    }
+    .header a, .header a:visited {
+    color: inherit;
+    }
+    .header h2, .header h3 {
+    display: inline;
+    }
+    .footer {
+    background: #2e3436;
+    color: #d3d7cf;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    padding: 12pt 6pt;
+    }
+    .footer a, .footer a:visited {
+    display: inline-block;
+    color: #729fcf;
+    }
+    .content {
+    margin: 2pt;
+    color: #000000;
+    font-family: serif;
+    }
+    .content img {
+    max-width: 100%;
+    }
+    .content a:link, .content a:visited {
+    color: #204a87;
+    }
+    .content a:focus, .content a:hover {
+    color: #000000;
+    }
+    .word {
+    margin: 6pt;
+    padding-inline-start: 0.5em;
+    font-family: serif;
+    overflow: auto;
+    border-radius: 6px;
+    }
+    .etymology, .grammar, .semantics, .tangent, .bubblebox, .exercise {
+    margin: 6pt;
+    padding-inline-start: 0.5em;
+    font-family: serif;
+    overflow: auto;
+    border-radius: 6px;
+    }
+    .etymology:before, .grammar:before, .semantics:before, .tangent:before, .word:before, .bubblebox:before, .exercise:before{
+    font-family: "Xolonium", sans-serif;
+    float:inline-end;
+    font-size: 3em;
+    padding-inline-end: 0.2em;
+    }
+    .etymology:before {
+    content: "🌏";
+    }
+    .tangent:before {
+    content: "🚪";
+    }
+    .semantics:before {
+    content: "🗣️";
+    }
+    .bubblebox:before {
+    content: "🗣️";
+    place-self: end;
+    }
+    .exercise:before {
+    content: "❗";
+    }
+    .def {
+    text-decoration: dotted underline;
+    }
+    @media screen and (min-width: 250px) {
+    html {
+     background:#e7e7ff url("/hexagonal_bg.gif");
+     background-attachment: fixed;
+    }
+    body {
+     max-width: 608pt;
+     border-radius: 6px;
+     margin: 60pt;
+    }
+    .header_text {
+     padding-inline: 2em;
+     padding-block: 2em;
+    }
+    .content {
+     padding-inline: 2em;
+     padding-block: 1em;
+    }
+    .info, .warning, .error, .etymology, .grammar, .semantics, .tangent, .bubblebox, .exercise {
+     padding: 6pt;
+     padding-inline-start: 1em;
+    }
+    }
+    @media screen and (min-width:250pt) {
+    .header {
+     border-radius: 4px 4px 4px 4px;
+    }
+    body {
+     max-width: 500pt;
+     border: 2px solid #555753;
+     margin: 24pt auto;
+    }
+    .footer {
+     border-radius: 0 0 4px 4px;
+    }
+    }
+    @media (prefers-color-scheme: dark) {
+    body {
+        background: #ffe8bd;
+        color: #d3d7cf;
+    }
+    .content {
+        color: #08244c;
+    }
+    .content a:link, .content a:visited {
+        color: #729fcf;
+    }
+    .content a:focus, .content a:hover {
+        color: #3465a4;
+    }
+    .word {
+    border: 2px solid #001f27;
+    .header {
+        background: none;
+        color: #0d1068;
+        text-align: center;
+        font-family: sans-serif;
+        min-height: 1px;
+    }
+    }
+    .etymology {
+        border: 2px solid #000a57;
+        background: #8affab;
+        color: #282024;
+        blockquote {
+            margin: 6pt;
+            padding-inline: 1em;
+            border-inline-start: 4px solid #661a57;
+        }
+    }
+    .tangent {
+        border: 2px solid #000a57;
+        background: #cfd1ed;
+        color: #241b00;
+        blockquote {
+            margin: 6pt;
+            padding-inline: 1em;
+            border-inline-start: 4px solid #2b2207;
+        }
+        h3 {
+            display:inline-block;
+        }
+        
+    }
+    .semantics {
+        border: 2px solid #001f27;
+        background: #ffd8c1;
+        color: #091b21;
+        blockquote {
+            margin: 6pt;
+            padding-inline: 1em;
+            border-inline-start: 4px solid #0e242c;
+        }
+    }
+    .bubblebox {
+        border: 2px solid #001f27;
+        background: #fdffcc;
+        color: #091b21;
+    }
+    .bubbleboxin {
+        display: grid;
+        gap: 20px;
+    }
+    .bubble {
+        --r: 1em;  /* the radius */
+        --t: 1.5em; /* the size of the tail */
+        
+        
+        padding: 1em;
+        border-inline: var(--t) solid #0000;
+        border-radius: calc(var(--r) + var(--t))/var(--r);
+        mask: 
+          radial-gradient(100% 100% at var(--_p) 0,#0000 99%,#000 102%) 
+            var(--_p) 100%/var(--t) var(--t) no-repeat,
+          linear-gradient(#000 0 0) padding-box;
+        
+      }
+      .left {
+        --_p: 0;
+        border-bottom-left-radius: 0 0;
+        background: #ff6294 border-box;
+        color: #001f00;
+        place-self: start;
+      }
+      .right {
+        --_p: 100%;
+        border-bottom-right-radius: 0 0;
+        background: #13a8ff border-box;
+        color: #260b0b;
+        place-self: end;
+      }
+    .exercise {
+        border: 2px solid #57004d;
+        background: #ffbdf3;
+        color: #0e1510;
+        blockquote {
+            margin: 6pt;
+            padding-inline: 1em;
+            border-inline-start: 4px solid #661a57;
+        }
+    }
+    }
 details {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #aaa;
