@@ -2,6 +2,9 @@ body {
     padding: 6px;
     font: sans-serif;
 }
+p {
+    font-size: 18pt;
+}
 details {
     border: 1px solid #aaa;
     border-radius: 4px;
