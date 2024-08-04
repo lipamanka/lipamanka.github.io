@@ -3,7 +3,7 @@ body {
     font: sans-serif;
 }
 p {
-    font-size: 18pt;
+    font-size: 16pt;
 }
 details {
     border: 1px solid #aaa;
@@ -12,6 +12,7 @@ details {
   }
   
   summary {
+    font-size: 16pt;
     font-weight: bold;
     margin: -0.5em -0.5em 0;
     padding: 0.5em;
