@@ -43,3 +43,11 @@ details[open] {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0.5em;
 }
+
+expAll {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+    background: #eaf2ff;
+}
