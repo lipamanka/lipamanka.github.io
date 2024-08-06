@@ -35,6 +35,13 @@ details {
             border-radius: 4px;
             padding: 0.5em 0.5em 0;
             background: #cadaff;
+            details {
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid #aaa;
+                border-radius: 4px;
+                padding: 0.5em 0.5em 0;
+                background: #a4d6ee;
+            }
         }
     }
 } 
