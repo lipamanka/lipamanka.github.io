@@ -28,25 +28,25 @@ details {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #aaa;
     border-radius: 4px;
-    padding: 0.5em 0.5em 0;
+    padding: 1em 1em 0;
     background: #eaf2ff;
     details {
         font-family: Arial, Helvetica, sans-serif;
         border: 1px solid #aaa;
         border-radius: 4px;
-        padding: 0.5em 0.5em 0;
+        padding: 1em 1em 0;
         background: #eae4ff;
         details {
             font-family: Arial, Helvetica, sans-serif;
             border: 1px solid #aaa;
             border-radius: 4px;
-            padding: 0.5em 0.5em 0;
+            padding: 1em 1em 0;
             background: #cadaff;
             details {
                 font-family: Arial, Helvetica, sans-serif;
                 border: 1px solid #aaa;
                 border-radius: 4px;
-                padding: 0.5em 0.5em 0;
+                padding: 1em 1em 0;
                 background: #a4d6ee;
             }
         }
@@ -70,6 +70,6 @@ col {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #aaa;
     border-radius: 4px;
-    padding: 0.5em 0.5em 0;
+    padding: 1em 1em 0;
     background: #eaf2ff;
 }
