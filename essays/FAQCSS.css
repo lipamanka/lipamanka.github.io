@@ -15,7 +15,9 @@ body {
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 700px;
-    padding: 10px;
+    padding: 0.5em 0.5em 0;
+    border-radius: 4px;
+    border: 1px solid #430000;
 }
 p {
     line-height: 1.5em;
