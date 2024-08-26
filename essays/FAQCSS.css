@@ -28,62 +28,7 @@ li {
     line-height: 1.5em;
 }
 
-details {
-    font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    padding: 1em 1em 0;
-    background: #eaf2ff;
-    details {
-        font-family: Arial, Helvetica, sans-serif;
-        border: 1px solid #aaa;
-        border-radius: 4px;
-        padding: 1em 1em 0;
-        background: #eae4ff;
-        details {
-            font-family: Arial, Helvetica, sans-serif;
-            border: 1px solid #aaa;
-            border-radius: 4px;
-            padding: 1em 1em 0;
-            background: #cadaff;
-            details {
-                font-family: Arial, Helvetica, sans-serif;
-                border: 1px solid #aaa;
-                border-radius: 4px;
-                padding: 1em 1em 0;
-                background: #a4d6ee;
-                details {
-                    font-family: Arial, Helvetica, sans-serif;
-                    border: 1px solid #aaa;
-                    border-radius: 4px;
-                    padding: 1em 1em 0;
-                    background: #83ccd6;
-                    details {
-                        font-family: Arial, Helvetica, sans-serif;
-                        border: 1px solid #aaa;
-                        border-radius: 4px;
-                        padding: 1em 1em 0;
-                        background: #a9e6d9;
-                        details {
-                            font-family: Arial, Helvetica, sans-serif;
-                            border: 1px solid #aaa;
-                            border-radius: 4px;
-                            padding: 1em 1em 0;
-                            background: #b0e9b3;
-                            details {
-                                font-family: Arial, Helvetica, sans-serif;
-                                border: 1px solid #aaa;
-                                border-radius: 4px;
-                                padding: 1em 1em 0;
-                                background: #c7efa8;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-} 
+
 
 
 summary {
@@ -104,4 +49,122 @@ col {
     border-radius: 4px;
     padding: 1em 1em 0;
     background: #eaf2ff;
+}
+
+@media only screen and (max-width: 500px) {
+    details {
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        padding: .2em .2em 0;
+        background: #eaf2ff;
+        details {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            padding: .2em .2em 0;
+            background: #eae4ff;
+            details {
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid #aaa;
+                border-radius: 4px;
+                padding: .2em .2em 0;
+                background: #cadaff;
+                details {
+                    font-family: Arial, Helvetica, sans-serif;
+                    border: 1px solid #aaa;
+                    border-radius: 4px;
+                    padding: .2em .2em 0;
+                    background: #a4d6ee;
+                    details {
+                        font-family: Arial, Helvetica, sans-serif;
+                        border: 1px solid #aaa;
+                        border-radius: 4px;
+                        padding: .2em .2em 0;
+                        background: #83ccd6;
+                        details {
+                            font-family: Arial, Helvetica, sans-serif;
+                            border: 1px solid #aaa;
+                            border-radius: 4px;
+                            padding: .2em .2em 0;
+                            background: #a9e6d9;
+                            details {
+                                font-family: Arial, Helvetica, sans-serif;
+                                border: 1px solid #aaa;
+                                border-radius: 4px;
+                                padding: .2em .2em 0;
+                                background: #b0e9b3;
+                                details {
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    border: 1px solid #aaa;
+                                    border-radius: 4px;
+                                    padding: .2em .2em 0;
+                                    background: #c7efa8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+@media only screen and (min-width: 501px) {
+    details {
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #aaa;
+        border-radius: 4px;
+        padding: 1em 1em 0;
+        background: #eaf2ff;
+        details {
+            font-family: Arial, Helvetica, sans-serif;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            padding: 1em 1em 0;
+            background: #eae4ff;
+            details {
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid #aaa;
+                border-radius: 4px;
+                padding: 1em 1em 0;
+                background: #cadaff;
+                details {
+                    font-family: Arial, Helvetica, sans-serif;
+                    border: 1px solid #aaa;
+                    border-radius: 4px;
+                    padding: 1em 1em 0;
+                    background: #a4d6ee;
+                    details {
+                        font-family: Arial, Helvetica, sans-serif;
+                        border: 1px solid #aaa;
+                        border-radius: 4px;
+                        padding: 1em 1em 0;
+                        background: #83ccd6;
+                        details {
+                            font-family: Arial, Helvetica, sans-serif;
+                            border: 1px solid #aaa;
+                            border-radius: 4px;
+                            padding: 1em 1em 0;
+                            background: #a9e6d9;
+                            details {
+                                font-family: Arial, Helvetica, sans-serif;
+                                border: 1px solid #aaa;
+                                border-radius: 4px;
+                                padding: 1em 1em 0;
+                                background: #b0e9b3;
+                                details {
+                                    font-family: Arial, Helvetica, sans-serif;
+                                    border: 1px solid #aaa;
+                                    border-radius: 4px;
+                                    padding: 1em 1em 0;
+                                    background: #c7efa8;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    } 
 }
