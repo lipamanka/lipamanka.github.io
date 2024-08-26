@@ -15,7 +15,6 @@ body {
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 700px;
-    padding: 1.5em 1.5em 0;
     border-radius: 8px;
     border: 1px solid #430000;
 }
@@ -59,6 +58,9 @@ details[open] {
     col {
         padding: .4em .4em 0;
     }
+    body {
+        padding: .6em .6em 0;
+    }
 }
 
 @media only screen and (min-width: 501px) {
@@ -70,6 +72,9 @@ details[open] {
     }
     col {
         padding: 1em 1em 0;
+    }
+    body {
+        padding: 1.5em 1.5em 0;
     }
 }
 
