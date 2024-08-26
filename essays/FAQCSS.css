@@ -38,16 +38,10 @@ summary {
     padding: 0.5em;
 }
 
-details[open] {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 1em 1em 0;
-}
-
 col {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #aaa;
     border-radius: 4px;
-    padding: 1em 1em 0;
     background: #eaf2ff;
 }
 
@@ -57,10 +51,13 @@ details[open] {
 
 @media only screen and (max-width: 500px) {
     details{
-        padding: .2em .2em 0;
+        padding: .4em .4em 0;
     }
     details[open]{
-        padding: .2em .2em 0;
+        padding: .4em .4em 0;
+    }
+    col {
+        padding: .4em .4em 0;
     }
 }
 
@@ -69,6 +66,9 @@ details[open] {
         padding: 1em 1em 0;
     }
     details[open]{
+        padding: 1em 1em 0;
+    }
+    col {
         padding: 1em 1em 0;
     }
 }
