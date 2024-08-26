@@ -51,120 +51,73 @@ col {
     background: #eaf2ff;
 }
 
+details[open] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @media only screen and (max-width: 500px) {
-    details {
-        font-family: Arial, Helvetica, sans-serif;
-        border: 1px solid #aaa;
-        border-radius: 4px;
+    details{
         padding: .2em .2em 0;
-        background: #eaf2ff;
-        details {
-            font-family: Arial, Helvetica, sans-serif;
-            border: 1px solid #aaa;
-            border-radius: 4px;
-            padding: .2em .2em 0;
-            background: #eae4ff;
-            details {
-                font-family: Arial, Helvetica, sans-serif;
-                border: 1px solid #aaa;
-                border-radius: 4px;
-                padding: .2em .2em 0;
-                background: #cadaff;
-                details {
-                    font-family: Arial, Helvetica, sans-serif;
-                    border: 1px solid #aaa;
-                    border-radius: 4px;
-                    padding: .2em .2em 0;
-                    background: #a4d6ee;
-                    details {
-                        font-family: Arial, Helvetica, sans-serif;
-                        border: 1px solid #aaa;
-                        border-radius: 4px;
-                        padding: .2em .2em 0;
-                        background: #83ccd6;
-                        details {
-                            font-family: Arial, Helvetica, sans-serif;
-                            border: 1px solid #aaa;
-                            border-radius: 4px;
-                            padding: .2em .2em 0;
-                            background: #a9e6d9;
-                            details {
-                                font-family: Arial, Helvetica, sans-serif;
-                                border: 1px solid #aaa;
-                                border-radius: 4px;
-                                padding: .2em .2em 0;
-                                background: #b0e9b3;
-                                details {
-                                    font-family: Arial, Helvetica, sans-serif;
-                                    border: 1px solid #aaa;
-                                    border-radius: 4px;
-                                    padding: .2em .2em 0;
-                                    background: #c7efa8;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    } 
+    }
+    details[open]{
+        padding: .2em .2em 0;
+    }
 }
- 
+
 @media only screen and (min-width: 501px) {
+    details{
+        padding: 1em 1em 0;
+    }
+    details[open]{
+        padding: 1em 1em 0;
+    }
+}
+
+details {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background: #eaf2ff;
     details {
         font-family: Arial, Helvetica, sans-serif;
         border: 1px solid #aaa;
         border-radius: 4px;
-        padding: 1em 1em 0;
-        background: #eaf2ff;
+        background: #eae4ff;
         details {
             font-family: Arial, Helvetica, sans-serif;
             border: 1px solid #aaa;
             border-radius: 4px;
-            padding: 1em 1em 0;
-            background: #eae4ff;
+            background: #cadaff;
             details {
                 font-family: Arial, Helvetica, sans-serif;
                 border: 1px solid #aaa;
                 border-radius: 4px;
-                padding: 1em 1em 0;
-                background: #cadaff;
+                background: #a4d6ee;
                 details {
                     font-family: Arial, Helvetica, sans-serif;
                     border: 1px solid #aaa;
                     border-radius: 4px;
-                    padding: 1em 1em 0;
-                    background: #a4d6ee;
+                    background: #83ccd6;
                     details {
                         font-family: Arial, Helvetica, sans-serif;
                         border: 1px solid #aaa;
                         border-radius: 4px;
-                        padding: 1em 1em 0;
-                        background: #83ccd6;
+                        background: #a9e6d9;
                         details {
                             font-family: Arial, Helvetica, sans-serif;
                             border: 1px solid #aaa;
                             border-radius: 4px;
-                            padding: 1em 1em 0;
-                            background: #a9e6d9;
+                            background: #b0e9b3;
                             details {
                                 font-family: Arial, Helvetica, sans-serif;
                                 border: 1px solid #aaa;
                                 border-radius: 4px;
-                                padding: 1em 1em 0;
-                                background: #b0e9b3;
-                                details {
-                                    font-family: Arial, Helvetica, sans-serif;
-                                    border: 1px solid #aaa;
-                                    border-radius: 4px;
-                                    padding: 1em 1em 0;
-                                    background: #c7efa8;
-                                }
+                                background: #c7efa8;
                             }
                         }
                     }
                 }
             }
         }
-    } 
-}
+    }
+} 
