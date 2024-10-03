@@ -66,6 +66,10 @@ table, th, td {
     border: 1px solid;
     border-collapse: collapse;
     padding: .5em .5em .5em;
+    table-layout:fixed;
+    word-wrap: break-word;
+    table-layout: fixed; 
+    width: 100%;
 }
 
 details {
