@@ -62,6 +62,12 @@ details[open] {
     }
 }
 
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: .5em .5em .5em;
+}
+
 details {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid #415d8a;
