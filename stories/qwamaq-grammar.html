@@ -18,7 +18,7 @@
 
     <p><a href='#/' id='expAll' class='col'>Expand/Collapse All</a></p>
 
-    <details open>
+    <details open> <!--Intro-->
         <summary id="introduction">Introduction</summary>
 
         <details open>
@@ -75,7 +75,7 @@
     </details>
     <br> 
 
-    <details open>
+    <details open> <!--Phono-->
         <summary id="phonology">Phonology</summary>
 
         <table>
@@ -154,7 +154,7 @@
     </details>
     <br>
 
-    <details open>
+    <details open> <!--Morpho-->
         <summary id="word-classes-and-derivational-morphology">Word Classes and Derivational Morphology</summary>
 
         <details open>
@@ -609,5 +609,440 @@
     </details>
     <br>
 
+    <details open>
+        <summary id="syntax">Syntax</summary>
+        <details open>
+            <summary id="triggers">Triggers</summary>
+            <p>Qwamaq uses trigger based alignment, also known as Austronesian alignment. Triggers on the verb determine what type of constituent information the direct object is. Then, the remaining types of constituent information are assigned to the remaining cases in order of the primary hierarchy. There are three base cases: direct, indirect, and oblique. There are also three base constituent types in the primary hierarchy: actor, patient, and oblique.</p>
 
+            <p>Here are a list of all the triggers used Qwamaq:</p>
+
+            <table>
+                <tr>
+                    <th>Indicitive</th>
+                    <th>Imperative</th>
+                    <th width="400%">Constituent Information Type</th>
+                </tr>
+                <tr>
+                    <td>ʃo-</td>
+                    <td>ap-ŋa, ma-</td>
+                    <td>actor/sole argument</td>
+                </tr>
+                <tr>
+                    <td>t-</td>
+                    <td>so-, m-</td>
+                    <td>patient</td>
+                </tr>
+                <tr>
+                    <td>aʃa-</td>
+                    <td>en-ŋa</td>
+                    <td>dative</td>
+                </tr>
+                <tr>
+                    <td>to-</td>
+                    <td>to-ŋa</td>
+                    <td>ablative</td>
+                </tr>
+                <tr>
+                    <td>es-</td>
+                    <td>es-ŋa</td>
+                    <td>locative</td>
+                </tr>
+                <tr>
+                    <td>po-ʃi</td>
+                    <td>po-ŋa</td>
+                    <td>instrumental</td>
+                </tr>
+                <tr>
+                    <td>un-</td>
+                    <td>un-ŋa</td>
+                    <td>comparative</td>
+                </tr>
+            </table>
+            
+            <p>You may notice that each of these has a derivational affix associated with it. I'm not really sure how well they match up though; These labels are just words I thought described the type of information well enough. Sometimes, derivational affixes won't really make sense, but these are all completely productive and NEVER produce lexicalized meanings. Any verb can take any of these.</p>
+
+            <p>Some verbs change meaning when certain triggers are used, but that's only because of the nature of prepositions. English does the same thing, like how "I spit water" means something different from "I spit at water." A lot of these don't make much sense, but they aren't lexicalized compounds because the meaning is part of the lexical entry of the root.</p>
+
+            <p>Changing JUST the trigger in one sentence can completely change the meaning. Let's take the following example:</p>
+
+            <p>
+                /fuk/ - to poison, to deceive<br>
+                /maper/ - tree<br>
+                /ʃiʃ-wak-er/ - enemy<br>
+                /puk-er/ - chicken
+            </p>
+
+            <p>ʃo-fuk fu maper tar ʃiʃ-wak-er fim puk-er - The tree poisons an enemy in the presence of a chicken</p>
+            <p>t-fuk fu maper tar ʃiʃ-wak-er fim puk-er - An enemy poisons the tree in the presence of a chicken</p>
+            <p>to-fuk fu maper tar ʃiʃ-wak-er fim puk-er - An enemy poisons a chicken because of/while leaving the tree</p>
+            <p>aʃa-fuk fu maper tar ʃiʃ-wak-er fim puk-er - An enemy poisons a chicken for the benefit of/while approaching the tree</p>
+            <p>es-fuk fu maper tar ʃiʃ-wak-er fim puk-er - An enemy poisons a chicken under the tree</p>
+            <p>po-fuk-ʃi fu maper tar ʃiʃ-wak-er fim puk-er - An enemy poisons a chicken using the tree</p>
+            <p>un-fuk fu maper tar ʃiʃ-wak-er fim puk-er - An enemy poisons a chicken as a tree would</p>
+        </details>
+        <br>
+
+        <details open>
+            <summary id="multiple-verbs-in-one-clause">Mulitple Verbs in One Clause</summary>
+
+            <p>I have heard people use multiple verbs in one clause. A fun thing they do is mark them all with different triggers. The direct object of the sentence is the direct object of ALL of the verbs, no matter what triggers they have. The indirect and oblique only grammatically apply to the last of the verbs in sequence, though. Sometimes from context it's clear what their relationships are to the other verbs.</p>
+
+            <p>To do this, a speaker puts all the verbs in ascending order of importance at the beginning of the sentence. Speakers avoid doing this with auxiliary verbs though.</p>
+        </details>
+        <br>
+
+        <details open>
+            <summary id="word-order">Word Order</summary>
+            <p>The default word order in Qwamaq is VDIO (verb, direct object, indirect object, oblique object), but VIDO is also used somewhat frequently. DVIO and IVDO also happen on rare occasion, but only one constituent is fronted at a time, and unless the indirect object is being fronted (either before the verb or after it), the indirect object will always appear after the direct object. The oblique is never fronted.</p>
+
+            <p>Even though constituents can be fronted before the verb, almost every sentence fronts important information using a trigger. To avoid using the oblique (or, especially, other prepositions), speakers will almost always front information that isn't an actor or patient.</p>
+
+            <p>Here are some cases where the oblique or other prepositions may be used:</p>
+
+            <ul>
+                <li><p>Some sentences just have a lot of different types of constituent information. In these cases, prepositions are used more readily than the oblique.</p></li>
+                <li><p>Sometimes a speaker will want to add extra information, but have already said the verb. In these cases, using the oblique is more common. If speakers want to clarify the meaning, they will repeat the sentence with a new trigger.</p></li>
+            </ul>
+
+            <p>Instead of using the oblique or other prepositions, speakers may just repeat the sentence with the same verb, but change the trigger and give it a singular direct object. (Like, /es-fuk fu ma-er/ [esiˈfuk fu maˈper] is "the poisoning happened under the tree.")</p>
+        </details>
+        <br>
+
+        <details open>
+            <summary id="tam-auxiliary-verbs">TAM Auxiliary Verbs</summary>
+
+            <p>There are a lot of these. There are two main categories, and they behave differently:</p>
+
+            <ul>
+                <li><p>Optional tense/aspect auxiliary verbs. These are always completely optional and only CLARIFY the meaning without changing it.</p></li>
+                <li><p>aspect/mood auxiliary verbs. Removing these from a sentence will change its meaning entirely.</p></li>
+            </ul>
+
+            <p>Because aspectual auxiliary verbs exist in both categories, I'll be calling these categories "tense" and "mood." It's worth mentioning that the way they work grammatically is exactly the same and this analysis is to show how optional these words are, not the differences in their grammatical usage.</p>
+
+            <p>Furthermore, for the sake of better explaining these auxiliary verbs on an anglophone audience, I've split category two into two parts: general and adverbial. Qwamaq uses auxiliary verbs for a lot of things that English uses adverbs for. Know that in Qwamaq, I am analyzing these two subsections as identical. I'm just separating them for an Anglophone audience.</p>
+
+            <p>Auxiliary verbs in the first category are always followed by a nominalized form of a noun. Frequently, this is locative, dative, or ablative, but some of them take less common nominalized verbs. In these situations, the nominalizers become completely reduced and compounds that normally have lexicalized meanings always lose it. A few auxiliary verbs take far less common nominalizers, like /-meleʒ/.</p>
+
+            <p>Auxiliary verbs in the second category sometimes take a direct object, that object being a sentence. They sometimes also take nominalized verbs like the first category.</p>
+
+            <p>These can stack completely productively!</p>
+
+            <p>TENSE/ASPECT AUXILIARY VERBS</p>
+
+            <table>
+                <tr>
+                    <th>Verb Root</th>
+                    <th style="width: 400%">Meaning/Nominalized Form It Takes</th>
+                </tr>
+                <tr>
+                    <td>sel</td>
+                    <td>both future and past tense ("I will eat bread" "I have eaten bread"). It has perfective connotations and takes a dative nominalized verb for future tense and an ablative one for past tense. Can also mean "to go."</td>
+                </tr>
+                <tr>
+                    <td>rati</td>
+                    <td>Progressive aspect ("I am eating bread"). Takes an instrumental nominalized verb. Can also mean "to continue"</td>
+                </tr>
+                <tr>
+                    <td>kaŋil</td>
+                    <td>habitual/iterative aspect ("I have been eating bread, I be eating bread") . Takes locative. Means "to pace in a circle" otherwise.</td>
+                </tr>
+                <tr>
+                    <td>olemp</td>
+                    <td>to start/stop doing something ("I begin eating bread"). Takes ablative for stopping, takes dative for starting. Means "to step" otherwise.</td>
+                </tr>
+                <tr>
+                    <td>proŋ</td>
+                    <td>to redo something ("I re-ate the bread"). Takes dative. Means "return" otherwise.</td>
+                </tr>
+            </table>
+
+            <p>ASPECT/MOOD AUXILIARY VERBS</p>
+
+            <table>
+                <tr>
+                    <th>Verb Root</th>
+                    <th style="width: 400%">Meaning/Nominalized Form It Takes</th>
+                </tr>
+                <tr>
+                    <td>asoke</td>
+                    <td>To come to do something, to begin doing something. Takes locative.  Means "grow" otherwise.</td>
+                </tr>
+                <tr>
+                    <td>orem</td>
+                    <td>To be obligated or expected to do something. takes an embedded clause. Ablative object is that which obligates or expects.</td>
+                </tr>
+                <tr>
+                    <td>kor</td>
+                    <td>to be able, to be possible ("I can eat bread" "It is possible that I will eat bread"). takes dative. Means the same thing otherwise, just not being used as an auxiliary.</td>
+                </tr>
+                <tr>
+                    <td>oŋki</td>
+                    <td>conditional ("If I eat bread" "when I eat bread"). Takes an embedded clause.</td>
+                </tr>
+            </table>
+
+            <p>ADVERBIAL AUXILIARY VERBS</p>
+
+            <table></table>
+                <tr>
+                    <th>Verb Root</th>
+                    <th style="width: 400%">Meaning/Nominalized Form It Takes</th>
+                </tr>
+                <tr>
+                    <td>miŋku</td>
+                    <td>definitive ("I definitely eat bread"). Takes an embedded clause.</td>
+                </tr>
+                <tr>
+                    <td>maŋi</td>
+                    <td>unfortunative/ ("It is unfortunate that I eat bread") Takes an embedded clause.</td>
+                </tr>
+                <tr>
+                    <td>piŋa</td>
+                    <td>fortunative ("It is fortunate that I eat bread"). Takes an embedded clause.</td>
+                </tr>
+                <tr>
+                    <td>faki</td>
+                    <td>unintentional ("A shawarma with extra tahini accidentally fell into my mouth"). Takes locative.</td>
+                </tr>
+                <tr>
+                    <td>sempa</td>
+                    <td>hypothetical ("hypothetically, I eat bread"). Takes an embedded clause.</td>
+                </tr>
+                <tr>
+                    <td>ʒir</td>
+                    <td>probable ("I probably eat bread"). Takes an embedded clause.</td>
+                </tr>
+            </table>
+            <br>
+
+        </details>
+        <br> 
+
+        <details>
+            <summary id="relative-clauses-and-subordinate-clauses">Relative Clauses and Subordinate Clauses</summary>
+            <p>Relative clauses in Qwamaq are formed by appending the infix /C-wik-V/ to the noun being relativized, and following it with the relative clause. The relative clause must begin with a verb, and the last affix to be added to the verb is /maf-/, which completes the relative clause construction.</p>
+
+            <p>Subordinate clauses are more simple. The preposition becomes reduplicated (per the table in the Word Classes and Derivational Morphology section) and the object of this new preposition is an entire new sentence.</p>
+
+            <p>Only the final noun in a sentence can be relativized, and only the final prepositional phrase in the sentence can take a subordinate clause.</p>
+
+            <p>Reminder: speakers avoid the infix /C-wik-V/, but it's still used from time to time, just avoided.</p>
+
+        </details>
+        <br>
+
+        <details>
+            <summary id="valency-changing-operations">Valency Changing Operations</summary>
+            <p>There are two valency changing operations: the passive and causative. They're both really simple.</p>
+
+            <p>Passive voice is created by omitting the direct object and skipping right to the indirect object. This differs from nominative-accusative language in the sense that any constituent information can be dropped, not just the "subject" (something that Qwamaq doesn't have). For example, if the trigger is /po-ʃi/, and the direct object is omitted, the instrumental object is being removed from the valent structure of the sentence.</p>
+
+            <p>In these cases, a preposition can be used to add back in the removed constituent without increasing the valency, but people don't usually do this unless the oblique preposition is still available.</p>
+
+            <p>Because functionally the passive construction is a nominative-accusative alignment language thing generally, this analysis is a little eurocentric. Keep that in mind. This is still a thing that happens.</p>
+
+            <p>Causatives are created using a few auxiliary verbs, listed below.</p>
+
+            <table>
+                <tr>
+                    <th>Root</th>
+                    <th style="width: 300%">Normal Meaning</th>
+                    <th style="width: 250%">Auxiliary Meaning</th>
+                </tr>
+                <tr>
+                    <td>kiʃ</td>
+                    <td>to force something physically (tr.), to push something (tr.)</td>
+                    <td>To force someone to do something</td>
+                </tr>
+                <tr>
+                    <td>ʃiliŋ</td>
+                    <td>to place a layer of cloth on top of something (tr.)</td>
+                    <td>To cause someone to do something generally (like kiʃ without judgment)</td>
+                </tr>
+                <tr>
+                    <td>klom</td>
+                    <td>to fill a bucket with many rock sized objects (tr.), to inspire someone (tr.)</td>
+                    <td>To inspire someone to do something</td>
+                </tr>
+                <tr>
+                    <td>kor</td>
+                    <td>to grant permission (tr.), to be able to (TAM aux.)</td>
+                    <td>To allow someone to do something</td>
+                </tr>
+            </table>
+
+            <p>The dative object of these verbs is the action that is being caused, which itself takes its own direct object. The dative object is always backed. The dative object is marked by a reduplicated preposition, just like subordinate clauses. Consider the following examples:</p>
+
+            <p>
+                /fuk/ - to poison, to deceive<br>
+                /maper/ - tree<br>
+                /ʃiʃ-wak-er/ - enemy<br>
+                /puk-er/ - chicken
+            </p>
+
+            <p>
+                /aʃa-kiʃ tar ma-er fu-fu t-fuk fu puk-er tar ʃiʃ-wak-er/<br>
+                [aʃaˈkiʃ tar maˈper ˈfufu tʃiˈfuk fu puˈker tar ˌʃiʃwaˈker]<br>
+                The tree makes the enemy poison the chicken
+            </p>
+
+            <p>
+                /aʃa-klom tar puk-er fu-fu t-fuk fu ʃiʃ-wak-er tar ma-er/<br>
+                [aʃaˈklom tar puˈker ˈfufu tʃiˈfuk fu ˌʃiʃwaˈker tar maˈper]<br>
+                The chicken inspires the tree to poison the enemy
+            </p>
+
+            <p>These are very similar to subordinate clauses and I'm not sure if it makes sense to analyze them as valency changing operations, but I was told that causatives are valency changing operations. I suppose there are two direct objects (one of which is the subordinated sentence) and two indirect objects, which in this analysis are all valent.</p>
+
+        </details>
+        <br>
+
+        <details open>
+            <summary id="conjunctives">Conjunctives</summary>
+            <p>Qwamaq connects pieces of information usually through juxtaposition, but a few conjunctive methods exist, usually using TAM auxiliaries. When two sentences appear in sequence, depending on which TAM auxiliaries are used where, the meaning can be more specific. These are the two consistent examples I've been able to find.</p>
+
+            <ul>
+                <li><p>When an oŋki sentence and a miŋku sentence appear next to each other, it means "when (oŋki sentence), (miŋku sentence)."</p></li>
+                <li><p>When an oŋki sentence appears next to a sempa sentence, it means "if (oŋki sentence), (sempa sentence)."</p></li>
+                <li><p>When two sentences appear in sequence and the second one uses the verb maŋi, it means something similar to "but"</p></li>
+            </ul>
+
+        </details>
+        <br>
+
+        <details>
+            <summary id="comparatives">Comparatives</summary>
+            <p>Things can be compared pretty easily using the comparative trigger or preposition, saying that they're similar. To say that they aren't similar is as easy as negating the verb. To make a different comparison that isn't "similar," these affixes must be appended to the words being compared. The comparative trigger is still used, these affixes just change the meaning of the comparative trigger or preposition from "like" or "as" to something more similar to "than."</p>
+
+            <table>
+                <tr>
+                    <th>Affix</th>
+                    <th style="width: 300%">Function</th>
+                    <th style="width: 300%">Meaning/Notes</th>
+                </tr>
+                <tr>
+                    <td>/o-/</td>
+                    <td>positive numerical comparative</td>
+                    <td>"more of X" (appended to nouns) </td>
+                </tr>
+                <tr>
+                    <td>/ŋ-/</td>
+                    <td>negative numerical comparative</td>
+                    <td>"fewer X" (appended to nouns)</td>
+                </tr>
+                <tr>
+                    <td>/el-/</td>
+                    <td>positive qualitative comparative</td>
+                    <td>"more X" (appended to adjectives)</td>
+                </tr>
+                <tr>
+                    <td>/nupor-/</td>
+                    <td>negative qualitative comparative</td>
+                    <td>"less X" (appended to adjectives)</td>
+                </tr>
+                <tr>
+                    <td>/ŋam-/</td>
+                    <td>positive adverb comparative</td>
+                    <td>"more X" (appended to adverbs)</td>
+                </tr>
+                <tr>
+                    <td>/onli-/</td>
+                    <td>negative adverb comparative</td>
+                    <td>"less X" (appended to adverbs)</td>
+                </tr>
+            </table>
+
+            <p>These can be used without the comparative trigger or the comparative preposition.</p>
+        </details>
+        <br>
+
+    </details>
+    <br>
+
+    <details open>
+        <summary id="phrasebook">Phrasebook</summary>
+        <p>This part is very underdone right now because I'm still trying to quantify them! I will add information here when have some compiled.</p>
+    </details>
+    <br>
+
+    <details open>
+        <summary id="registers-and-varieties">Registers and Varieties</summary>
+
+        <p>A lot of these differences in registers have specific names IN Qwamaq, which suggests that speakers are aware of and frequently thinking about these things. It isn't an automatic linguistic practice, but rather a learned aspect of the culture. </p>
+
+        <p>This is common cross linguistically. Apparently it can take first language Japanese speakers well into their 20s to fully internalize and learn formality distinctions. Qwamaq is nowhere near as complex as that though, in my opinion. I've already gotten an intuition for all of these registers (except for the regional ones).</p>
+
+        <details open>
+            <summary id="sung-qwamaq">Sung Qwamaq</summary>
+            <p>Sung Qwamaq is called qamishanngafaq /qami-ʃaŋŋa-faq/ [ˌqamiˌʃaɴɴaˈfaq]. When sung, Qwamaq grammar changes in a few key ways:</p>
+
+            <p>Most significant is that the productivity of all affixes, even the archaic ones, increases to "as productive as possible." My collaborator, Zhoniker, switches to the sung register a lot when we're alone together so he can use the affixes more productively. But he switches back to the spoken register a lot too, probably because using the sung register is kind of like if I told you to improvise a song with really good wordplay in it.</p>
+
+            <p>I've tried switching to the sung register, and it's actually really forgiving. Zhoniker corrects me relentlessly in the spoken register, but never in the sung register. Well, except for the word order. Sung register word order is VERY strict. It must be VDIO with NO room for changing anything, unless something is required to be backed for a relative or subordinate clause. Zhoniker still corrects that relentlessly.</p>
+
+            <p>Zhoniker also adds geminates after secondary stress. This feature also shows up in young speech.</p>
+
+            <p>The sung register is something that I think you can only switch into when speaking informally. Zhoniker avoids it around his mother and grandmother, but has used it in front of the children.</p>
+        </details>
+        <br>
+
+        <details open>
+            <summary id="formal-vs-informal">Formal Qwamaq vs Informal Qwamaq</summary>
+            <p>The formality you use when you speak is actually not determined by age or experience. It's determined by tattoos. Everyone knows how to tattoo others, but it's forbidden to tattoo yourself. Someone else must tattoo you. It's considered very weird for a family member to tattoo you, so the relationships that result in tattoos are usually romantic, sexual, or very closely platonic (like, REALLY good friends, intimately so).</p>
+
+            <p>If you don't like a tattoo, you can remove it using a fruit called "diʒidiʒi" that only grows in the mountains to the north. It can be a little expensive, but keeping a paste made from it compressed on a tattoo will slowly remove it. Most people don't do this because tattoos are a status symbol and are often hard to acquire.</p>
+
+            <p>Zhoniker has one tattoo on his right arm. That means that when it comes to formality and respect, he's pretty low on the hierarchy. When I asked him about his tattoo, he looked embarrassed and told me that he used to be romantically involved with another man who was an aspiring songwalker, but he was really bad at it and Zhoniker only broke things off after several months of feeling too embarrassed to end the relationship.</p>
+
+            <p>The following day, Zhoniker asked if he could tattoo me. I said yes, and he did so. It was a beautiful dragonfly on my left forearm. Now, I can finally speak informally to Zhoniker without it feeling weird to him. Not that he actually cared before I got the tattoo; it just Felt Wrong because of how tattoos impact grammar.</p>
+
+            <p>And I suppose this means that Zhoniker and I are something similar to a queerplatonic relationship.</p>
+
+            <p>As for formality distinctions, here are the most significant differences between formal and informal Qwamaq (at least in rural areas):</p>
+
+            <ul>
+                <li><p>In informal Qwamaq, it is really common to interrupt each other or start talking before someone finishes. This kind of reminds me of New York English, where it's considered rude to wait to start talking before someone finishes. In formal Qwamaq, there's a good two second break between people talking. </p></li>
+                <li><p>In informal Qwamaq, all geminates can be freely shortened (so qwamaqqar because qwamaqar)</p></li>
+                <li><p>In formal Qwamaq, while someone else is talking, the way you show that you're listening is by repeating the vocative phrase "miˈqami [name]." When I'm speaking to Akakiper, I nod along and say "miˈqami Akakiper" (or actually I can shorten it to "miˈqami Akiper," that is just a little more ambiguous because it can also mean "rock")</p></li>
+                <li><p>In informal Qwamaq, you repeat the direct object of a sentence as the person talks, reiterating the information they chose to mark as most important. If it's a first or second person pronoun, it's really weird to not change it around so it's still referring to the same thing.</p></li>
+            </ul>
+
+            <p>You figure out when to use the formal or informal register by looking at how many tattoos someone has. People dress to display as many of their tattoos as they can.</p>
+
+            <p>It should be noted that when it comes to neologisms, it's expected for the member of the group with the most tattoos to decide for the whole group. Whenever I would show something new to the family I've been spending time with, everyone would always look to Akakiper. If she wasn't there, people looked to Uqumer instead, but Uqumer would frequently feel obligated to GO FIND Akakiper to ask her. It's really sweet how much they care about doing neologisms RIGHT.</p>
+
+            <p>They actually prioritize getting Akakiper to come up with neologisms over things like tending to food to keep it from burning. One time, Umuqer instructed me to get Ripiper, who was playing outside. (Zhoniker and Usalamaper were off somewhere and I was helping out around the house.) Then, Umuqer asked Ripiper to get Akakiper.</p>
+
+            <p>Why she didn't just ask me is beyond me, but it could be because Akakiper is a very respected member of the family and I only had one tattoo at the time, which was faint and covered up on my left shoulder. None of them had ever seen it. So formality-wise, I'm only slightly a rung up from the children, or perhaps even below because I'm not Qwamaq.</p>
+        </details>
+        <br>
+
+        <details open>
+            <summary id="old-vs-young">Old vs Young Qwamaq</summary>
+            <p>"Young speech" has its own name in Qwamaq. It is called qamiminkifaq/qami-miŋki-faq/ [qamiˌmiɴqiˈfaq] (qami means "to talk" and miŋki means "young"). Non-young Qwamaq is considered the default, but I have heard qamiminkipumfaq /qami-miŋki-um-faq/ [ˌqamiˌmiɴqifuɱˈfaq] a few times to specify that one is not talking about young Qwamaq.</p>
+
+            <p>Note that the verb form "to speak young speech" is qami minkiŋapa. minkiŋapa is only used in this compound. To do something youthfully is usually a construction that uses the comparative trigger and a child as the direct object.</p>
+
+            <p>Anyone can speak young. To speak young is to speak with great enthusiasm. Adults in Qwamaq culture are expected to be passive and polite, but children are expected to be energetic and enthusiastic about everything. Once a child is able, it is expected of them to pronounce all plosives as ejectives unless they are low energy, i.e. tired or bored. I've also heard children add geminates after secondary stress (for example, [ˌqammiˌmiɴqqifuɱˈfaq]), just like in the sung register. </p>
+
+            <p>However, if an adult wants to, they can choose to use qamiminkifaq to show enthusiasm or excitement.</p>
+        </details>
+        <br>
+
+        <details open>
+            <summary id="rural-vs-urban">Rural vs Urban Qwamaq</summary>
+            <p>I've been describing this throughout this grammar, but I thought I'd take a moment to compile all of the differences I know of based on what Zhoniker has told me, with the big disclaimer that I have not actually been to a Qwamaq city yet. Once I do, I will add that information here if I get the chance.</p>
+
+            <p>Zhoniker and Uqumer have both called the urban dialect "qamifaq paparamoʃ." When I asked them what paparamoʃ meant, they said that it was a city with walls. I asked them what param or aram meant as a verb, and they used a few words for "attack." So the root means "beseige," and paparamoʃ means "the beseiged" or "the beseigable" which is cool because the name of this variety is "speech of the beseigable." I wonder what the city folk have to say about this.</p>
+
+            <p>Zhoniker and Uqumer also had a name for the rural dialect: qamifaq papinker (language of the brave). Sounds pretty epic tbh.</p>
+
+            <p>I've already described some differences throughout this document, but once I visit Konoprar I'll update it.</p>
+        </details>
+        <br>
+    </details>
+    <br>
+    
 </body>
