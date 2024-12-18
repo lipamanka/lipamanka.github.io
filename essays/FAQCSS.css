@@ -128,3 +128,19 @@ details {
         }
     }
 } 
+
+a.headerlink {
+    text-decoration: none;
+    font-size: 0.8em;
+    padding: 0 4px 0 4px;
+    visibility: hidden;
+}
+
+a.headerlink:hover {
+    color: #00B0E4;
+    background-color: #424242;
+}
+
+:hover > a.headerlink {
+    visibility: visible;
+}
