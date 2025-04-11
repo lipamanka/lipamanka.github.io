@@ -1,11 +1,15 @@
 ---
 title: worldbuilding
+description: random worldbuilding prompt generator
 ---
 
 <button id="input">click!</button>
-<p id="output"></p>
+<details open>
+    <summary>Your prompt is:</summary>
+    <p id="output"></p>
+</details>
+<br>
 
-at the bottom of the body element:
 <script type="module">
 // when the page loads fetch the prompts as a string
 const text = await fetch("./prompts.txt").then(r => r.text());
