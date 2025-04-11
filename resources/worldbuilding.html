@@ -1,0 +1,24 @@
+---
+title: worldbuilding
+---
+
+<button id="input">click!</button>
+<p id="output"></p>
+
+at the bottom of the body element:
+<script type="module">
+// when the page loads fetch the prompts as a string
+const text = await fetch("./prompts.txt").then(r => r.text());
+// turn the big string into an array of strings
+const prompts = text.split("\n");
+
+// store the output element as a variable
+const output = document.getElementById("output");
+
+function clicked() {
+  const prompt = prompts[Math.floor(Math.random() * prompts.length)];
+  output.textContent = prompt;
+}
+const input = document.getElementById("input");
+input.addEventListener("click", clicked);
+</script>
