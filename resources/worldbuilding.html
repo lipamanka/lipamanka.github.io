@@ -15,13 +15,13 @@ description: random high-quality handwritten worldbuilding prompt generator. Cur
 </details>
 <br>
 
-<button id="inputclong">Click to generate a conlang prompt</button>
+<button id="clonginput">Click to generate a conlang prompt</button>
 <br>
 <br>
 
 <details open>
     <summary>Your prompt is:</summary>
-    <p id="outputclong"></p>
+    <p id="clongoutput"></p>
 </details>
 <br>
 
@@ -68,12 +68,12 @@ const clongtext = await fetch("./clong-prompts.txt").then(r => r.text());
 const clongprompts = clongtext.split("\n");
 
 // store the output element as a variable
-const clongoutput = document.getElementById("output-clong");
+const clongoutput = document.getElementById("clongoutput");
 
 function clicked() {
   const clongprompt = clongprompts[Math.floor(Math.random() * clongprompts.length)];
   clongoutput.textContent = clongprompt;
 }
-const clonginput = document.getElementById("input-clong");
+const clonginput = document.getElementById("clonginput");
 input.addEventListener("click", clicked);
 </script>
