@@ -47,20 +47,30 @@ description: random high-quality handwritten worldbuilding prompt generator. Cur
 <script type="module">
 // when the page loads fetch the prompts as a string
 const text = await fetch("./prompts.txt").then(r => r.text());
+const clongtext = await fetch("./clong-prompts.txt").then(r => r.text());
 // turn the big string into an array of strings
 const prompts = text.split("\n");
+const clongprompts = clongtext.split("\n");
 
 // store the output element as a variable
 const output = document.getElementById("output");
+const clongoutput = document.getElementById("clongoutput");
 
 function clicked() {
   const prompt = prompts[Math.floor(Math.random() * prompts.length)];
   output.textContent = prompt;
 }
+function clongclicked() {
+  const clongprompt = clongprompts[Math.floor(Math.random() * clongprompts.length)];
+  clongoutput.textContent = clongprompt;
+}
 const input = document.getElementById("input");
 input.addEventListener("click", clicked);
+const clonginput = document.getElementById("clonginput");
+clonginput.addEventListener("clongclick", clongclicked);
 </script>
 
+<!--
 <script type="module">
 // when the page loads fetch the prompts as a string
 const clongtext = await fetch("./clong-prompts.txt").then(r => r.text());
@@ -77,3 +87,4 @@ function clongclicked() {
 const clonginput = document.getElementById("clonginput");
 input.addEventListener("clongclick", clongclicked);
 </script>
+-->
