@@ -15,6 +15,16 @@ description: random high-quality handwritten worldbuilding prompt generator. Cur
 </details>
 <br>
 
+<button id="input-clong">Click to generate a conlang prompt</button>
+<br>
+<br>
+
+<details open>
+    <summary>Your prompt is:</summary>
+    <p id="output-clong"></p>
+</details>
+<br>
+
 <details open>
     <summary>About:</summary>
     <p>One day (that day being April 9th, 2025), I sat down and decided to write as many worldbuilding prompts for a constructed culture as I could By the following day, I had 101 worldbuilding prompts. I will continue to add prompts as I think of them. More information:</p>
@@ -48,5 +58,22 @@ function clicked() {
   output.textContent = prompt;
 }
 const input = document.getElementById("input");
+input.addEventListener("click", clicked);
+</script>
+
+<script type="module">
+// when the page loads fetch the prompts as a string
+const text = await fetch("./clong-prompts.txt").then(r => r.text());
+// turn the big string into an array of strings
+const prompts = text.split("\n");
+
+// store the output element as a variable
+const output = document.getElementById("output-clong");
+
+function clicked() {
+  const prompt = prompts[Math.floor(Math.random() * prompts.length)];
+  output.textContent = prompt;
+}
+const input = document.getElementById("input-clong");
 input.addEventListener("click", clicked);
 </script>
