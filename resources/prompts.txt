@@ -19,7 +19,7 @@ What superstitions and/or modes of divination are present for these people?
 What trade/art style/medium are the people most known for? Who makes these pieces of art? Are they useful for anything or entirely decorational?
 How do people regulate their tempurature? When it's too hot, how do they cool off? When it's too cold, how do they stay warm?
 How many languages are members of this culture expected to speak? Which languages are common and why?
-How are people honored (or disrespected) when they pass away?
+How are people honored (or disrespected) when they pass away? What happens to their bodies?
 How are names chosen? Who chooses them? Do they have meaning? Are some names forbidden? Are some names restricted? Do names ever change? 
 How does information travel? Is there a messenger occupation? What technology is used to transport information?
 What spices, seasonings, and aromatics are common for cooking? Do they use something similar to garlic and onions? Is anything spicy? Are they all plant based? Are there some animal based ones? How are these seasonings made/grown?
@@ -63,7 +63,7 @@ What is considered beautiful? Is there an aesthetic beauty standard? Whatpractic
 What great historical figures and/or mythical people exist in storytelling? Did they actually exist? What lessons can be learned from their story, if anything?
 How do members of this culture wear their hair? Do any of them cover it? If so, why? Is there any significance, or is it just practical? 
 Are there any customs when two people meet on a road? What are they? If there are none, what is common behavior instead?
-How do people preserve their food? Do they use salt? Do they use acid? Do they use fermentation? Do they use fat? Do they use spices? How do all these things impact the way the food is cooked? 
+How do people preserve their food? Do they use salt? Do they use acid? Do they use fermentation? Do they use fat? Do they use spices? Do they keep the food cold, or freeze it? If so, by what means? How do all these things impact the way the food is cooked? 
 When do people celebrate their birthday, if at all? How do people celebrate their birthday? 
 Who are the wisdom holders of the community? What role do they play? How are others expected to interact with them? How old are they? What expertise do they have? Are they corrupt? How might this manifest in the lives of people who interact with them? 
 Are there any spiritual practices that are considered taboo? What are they, and why are they taboo? Are there consequences for engaging in them? How severe are these consequences? Do they extend beyond social stigma? 
@@ -89,6 +89,7 @@ What is the penalty for murder? Why? How often does murder happen? How stigmatiz
 Where are few people willing to go? Why? Who is willing to go, and why? Are there any stories about these places? Are they true? (Feel free to discuss multiple places, perhaps one for each major settlement, as desired.) 
 What toys are children known to play with? Who makes their toys? Do they make their own toys?
 What common plants are used for decoration? How annoying are they to care for? Are there any stories or connotations related to any of them?
+How many large color categories does this culture have? What aspects of color do members of this culture focus on? Hue? Saturation? Something else?
 How loud are people? How much do people talk? How do people feel about small talk?
 What household objects signify luxury and wealth? Why? How are the wealthy expected to act with their wealth? Do they hoard it? Do they give it all away? What respect are they afforded?
 How do people illuminate their living spaces at night? If they use fire, how is the fire contained? What is the fuel made out of?
@@ -113,3 +114,27 @@ What are the biggest unanswered questions gnawing on the public consciousness? H
 What types of food do people snack on? Are there any specific recipes for snacking foods? 
 How close are the people to the sea? How does this impact the culture? Does it depend on the settlement? If so, how does proximity to the sea impact the local culture differently?
 What is the most important settlement? Second most important? Third most important? Why are these settlements so important?
+How common is social isolation? What age group is it most frequent in? Are socially isolated folk stigmatized? Is social isolation a problem?
+Who is allowed to touch who, and when and where? If there are restrictions, what are the common justifications? 
+What do people attribute magic to, if it exists in your world? Are they right? 
+What food is cooked for the sick? Why? What sets it apart from normal food, if anything?
+What are the colors of the eyes, hair, and skin of this ethnic group? How variable are these? Have social customs impacted these traits? What about environmental features?
+What scary stories are told to keep children in line? 
+What do people think disease is caused by? Are they right? If not, does this misconception lead to medical malpractice that harms members of the culture? 
+How does one acquire another's attention? Are there gestures, noises, both? Is there a specific grammatical vocative? Does anyone use physical contact to get attention? 
+What monsters lurk in the depths? How do stories about them differ? Are they real, or just myths? Something in-between?
+Is there significant color symbolism anywhere in this culture? What is associated with darkness and light? 
+What do people do with baby teeth? What significance may this practice have? Do baby teeth ever symbolize anything?
+What big meals are saved for celebrations? How many people do they feed? What makes these dishes unique?
+What utensils do people eat with, if at all? If they don't use utensils, do they use their hands? Have they always eaten like this? How do they differ from the utensils of neighboring cultures? How do the utensils match the way the food is served?
+What are the most important landmarks? Were they built, or are they natural features of the terrain? If they were built, who built them, and how long ago? Why were they built? Do they serve functions, or were they just decorative? Have they ever been rebuilt, or otherwise changed over time?
+What's considered romantic? How do people show affection? How may have this changed recently? What's trendy?
+How often does it rain? What does this culture attribute rain to? If it rains rarely, how do people praise the rain? If it rains often and hard, how do people characterize the distruction it causes?
+Are there any sports? How do they work? What happens to the winners? What happens to the losers? Where do athletes practice? Where do they compete?
+Are there any major rivers nearby? Are they used to transport anything? Are there any water wheels along them? 
+What waste do people generate? How do they get rid of it? How much of it is biodegradable? Is it an issue? 
+Do people modify their bodies? Are there common places for piercings? Do people get tattoos? Do the tattoos have any cultural significance? 
+What can people only get through trade? Why do they trade for it, and why can't they make it themselves? Where is it made?
+What common diseases exist among the people of this culture? What are the symptoms? What are the cures and treatments? Are there any steps one can take to prevent them? How does one get the diseases? Who is most exposed?
+What occupations are unique to this culture? 
+What stories give people hope? What inspires people to keep going when life gets hard?
