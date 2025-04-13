@@ -1,6 +1,6 @@
 ---
 title: worldbuilding prompt generator
-description: random high-quality handwritten worldbuilding prompt generator. Current number of prompts: 142
+description: random high-quality handwritten worldbuilding prompt generator. Current number of prompts: 146
 ---
 
 <h1>LIPAMANKA'S WORLDBUILDING PROMPT GENERATOR</h1>
@@ -27,6 +27,18 @@ description: random high-quality handwritten worldbuilding prompt generator. Cur
 <br>
 -->
 
+<!--
+<button id="transinput">Click to generate a translation sentence prompt</button>
+<br>
+<br>
+
+<details open>
+    <summary>Your prompt is:</summary>
+    <p id="transoutput"></p>
+</details>
+<br>
+-->
+
 <details open>
     <summary>About:</summary>
     <p>One day (that day being April 9th, 2025), I sat down and decided to write as many worldbuilding prompts for a constructed culture as I could By the following day, I had 101 worldbuilding prompts. I will continue to add prompts as I think of them. More information:</p>
@@ -41,7 +53,7 @@ description: random high-quality handwritten worldbuilding prompt generator. Cur
         <li><p>This page wouldn't be possible without coding help from <a href="https://dan.onl/">ilo Tani</a>. ilo Tani is one of the coolest toki ponists out there right now and is also just a wonderful person to interact with?? Like how can one person be this good and cool and awesome?</p></li>
         <li><p>The contents of <a href="./prompts.txt">https://lipamanka.gay/resources/prompts.txt</a> and <a href="./clong-prompts.txt">https://lipamanka.gay/resources/clong-prompts.txt</a>are released under CC-0. You can use it for practically anything you want. You could even sell it! idk who would buy it, because it's available free online, but whatever!</p></li>
         <li><p>No AI was used in the creation of these prompts. If you thought AI was used, I'm both flattered and offended.</p></li>
-        <li><p><strong>The current number of culture prompts is 142</strong></p></li>
+        <li><p><strong>The current number of culture prompts is 146</strong></p></li>
     </ul>
 </details>
 <br>
@@ -50,13 +62,16 @@ description: random high-quality handwritten worldbuilding prompt generator. Cur
 // when the page loads fetch the prompts as a string
 const text = await fetch("./prompts.txt").then(r => r.text());
 const clongtext = await fetch("./clong-prompts.txt").then(r => r.text());
+const transtext = await fetch("./translation-prompts.txt").then(r => r.text());
 // turn the big string into an array of strings
 const prompts = text.split("\n");
 const clongprompts = clongtext.split("\n");
+const transprompts = transtext.split("\n");
 
 // store the output element as a variable
 const output = document.getElementById("output");
 const clongoutput = document.getElementById("clongoutput");
+const transoutput = document.getElementById("transoutput");
 
 function clicked() {
   const prompt = prompts[Math.floor(Math.random() * prompts.length)];
@@ -66,27 +81,14 @@ function clongclicked() {
   const clongprompt = clongprompts[Math.floor(Math.random() * clongprompts.length)];
   clongoutput.textContent = clongprompt;
 }
+function transclicked() {
+  const transprompt = transprompts[Math.floor(Math.random() * transprompts.length)];
+  transoutput.textContent = transprompt;
+}
 const input = document.getElementById("input");
 input.addEventListener("click", clicked);
 const clonginput = document.getElementById("clonginput");
 clonginput.addEventListener("click", clongclicked);
+const transinput = document.getElementById("transinput");
+transinput.addEventListener("click", transclicked);
 </script>
-
-<!--
-<script type="module">
-// when the page loads fetch the prompts as a string
-const clongtext = await fetch("./clong-prompts.txt").then(r => r.text());
-// turn the big string into an array of strings
-const clongprompts = clongtext.split("\n");
-
-// store the output element as a variable
-const clongoutput = document.getElementById("clongoutput");
-
-function clongclicked() {
-  const clongprompt = clongprompts[Math.floor(Math.random() * clongprompts.length)];
-  clongoutput.textContent = clongprompt;
-}
-const clonginput = document.getElementById("clonginput");
-input.addEventListener("clongclick", clongclicked);
-</script>
--->
