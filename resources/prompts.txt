@@ -21,7 +21,7 @@ How do people regulate their tempurature? When it's too hot, how do they cool of
 How many languages are members of this culture expected to speak? Which languages are common and why?
 How are people honored (or disrespected) when they pass away? What happens to their bodies?
 How are names chosen? Who chooses them? Do they have meaning? Are some names forbidden? Are some names restricted? Do names ever change? 
-How does information travel? Is there a messenger occupation? What technology is used to transport information?
+How does information travel? Is there a messenger occupation? What technology is used to transport information? Do messengers transport objects as well?
 What spices, seasonings, and aromatics are common for cooking? Do they use something similar to garlic and onions? Is anything spicy? Are they all plant based? Are there some animal based ones? How are these seasonings made/grown?
 What do members of this culture do to increase their luck? Does it actually work? 
 What pigments does this culture have access to, and what do they use them for?
@@ -144,3 +144,7 @@ What objects do members of this culture adorn altars with for ritual? What do th
 What aspect of this culture has been lost? Does anyone care? Should more people care? 
 What parts of the body must always remain covered? Does this differ between members of different social classes, occupations, genders, age groups, etc.?
 What do people do to catch up when they haven't seen each other in a while? Where do they go? 
+How do people learn languages from other cultures? What languages are the most common to learn?
+Is there a millitary? Who, if anyone, is drafted? What tactics are used in battle? What more specific ranks can specific members of the millitary have?
+How do members of this culture keep track of time? How do they know what time of day it is? What about during the night? Does it matter? Do they use specific tools they've made, or do they use patterns in nature?
+How much do members of this culture value mental health? What strategies do they have to deal with it? Are any mental health struggles stigmatized? Are any mental health struggles named? 
